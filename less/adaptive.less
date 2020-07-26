@@ -1,0 +1,524 @@
+/* 1024 - 1229 */
+@media screen and (max-width: 1199px) {
+  #header {
+    #header-container {
+      padding: 0 20px;
+
+      #header-info-container {
+        h1 {
+          font-size: 40px;
+        }
+      }
+
+    }
+  }
+
+  #bake {
+    #bake-container {
+      padding: 120px 20px 0 20px;
+      justify-content: center;
+      max-width: 1000px;
+      align-items: center;
+
+      #bake-info {
+        max-width: 667px;
+        text-align: center;
+
+        #bake-info-text {
+          margin-bottom: 40px;
+          max-width: 667px;
+        }
+
+        #bake-info-head {
+          max-width: 505px;
+          text-align: center;
+          margin: 0 auto;
+        }
+
+        #bake-image {
+          height: 183px;
+          width: 302px;
+
+          img {
+            height: 183px;
+            width: 302px;
+          }
+        }
+      }
+    }
+
+    #bake-properties {
+      padding: 80px 20px 120px 20px;
+    }
+  }
+
+
+  #choose {
+    #choose-container {
+      padding: 120px 0;
+      justify-content: space-between;
+      max-width: 550px;
+
+      #choose-title {
+        padding-bottom: 73px;
+      }
+
+      .macaroons {
+        margin-top: 70px;
+      }
+    }
+  }
+
+
+  #order-mac {
+    #order-mac-container {
+      padding: 98px 20px 120px 20px;
+    }
+  }
+
+  #footer {
+    #footer-container {
+      padding: 70px 20px;
+    }
+  }
+
+}
+
+
+/* 768 - 1023 */
+@media screen and (max-width: 1025px) {
+  #header {
+    padding-bottom: 0;
+
+    #header-menu {
+      padding-top: 38px;
+      padding-bottom: 0;
+
+      .logo {
+        padding-left: 15px
+      }
+
+      #menu {
+        padding-right: 218px;
+      }
+
+      .phone {
+        display: none;
+      }
+    }
+
+    #header-info {
+      padding-top: 50px;
+      padding-left: 15px;
+      flex-direction: column;
+      padding-bottom: 420px;
+      position: relative;
+
+      #header-info-text {
+        margin-bottom: 41px;
+      }
+
+      #header-info-image {
+        bottom: 52px;
+        position: absolute;
+        height: 438px;
+        width: 529px;
+        right: 84px;
+      }
+    }
+  }
+
+  #bake {
+    #bake-container {
+      justify-content: center;
+      max-width: 950px;
+
+      #bake-info {
+        max-width: 667px;
+        text-align: center;
+
+        #bake-info-head {
+          max-width: 505px;
+          text-align: center;
+          margin: 0 auto;
+        }
+
+        #bake-info-text {
+          margin-bottom: 40px;
+          max-width: 667px;
+        }
+      }
+
+      #bake-image {
+        height: 183px;
+        width: 302px;
+
+        img {
+          height: 183px;
+          width: 302px;
+        }
+      }
+    }
+
+    #bake-properties {
+      padding-top: 52px;
+      padding-bottom: 119px;
+      flex-wrap: wrap;
+      text-align: center;
+      max-width: 550px;
+
+      .properties {
+        max-width: 229px;
+        margin-top: 25px;
+
+        .properties-number {
+          margin: 0 auto;
+        }
+
+        .properties-title {
+          margin-top: 11px;
+        }
+
+        .properties-text {
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+
+  #choose {
+    #choose-container {
+      #choose-title {
+        padding-bottom: 73px;
+      }
+    }
+  }
+
+
+  #order-mac {
+    #order-mac-container {
+      justify-content: end;
+      max-width: 780px;
+
+      #order-mac-img {
+        order: 2;
+        height: 499px;
+        width: 352px;
+        position: absolute;
+        right: 28px;
+        bottom: -57px;
+
+        #Big {
+          width: 72px;
+          height: 89px;
+          position: absolute;
+          left: -33px;
+          top: -58px;
+        }
+
+        img {
+          height: 499px;
+          width: 352px;
+        }
+      }
+
+      #order-mac-form {
+        #Small {
+          width: 50px;
+          height: 66px;
+          position: absolute;
+          right: -204px;
+          top: 154px;
+        }
+      }
+    }
+  }
+
+
+  #rights {
+    font-size: 12px;
+    color: rgb(186, 179, 179);
+    margin-left: 358px;
+  }
+
+}
+
+
+@media screen and (max-width: 737px) {
+
+  #header {
+    #header-container {
+      #header-menu {
+        .logo {
+          padding-left: 15px;
+        }
+
+        #menu {
+          display: none;
+          position: fixed;
+          width: 100%;
+          height: 100%;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          margin: 0;
+          padding-top: 30px;
+          background: rgba(0, 0, 0, 0.84);
+          top: 0;
+          left: 0;
+          z-index: 2;
+
+          .open {
+            display: flex;
+          }
+
+          svg {
+            display: block;
+            width: 24px;
+            fill: #821328;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+          }
+
+          a.menu-item {
+            margin: 15px 5px;
+            color: rgb(232, 37, 37);
+          }
+        }
+
+        #burger {
+          display: block;
+          width: 36px;
+          height: 36px;
+          fill: #821328;
+          padding-right: 15px;
+
+          svg {
+            width: 36px;
+            height: 36px;
+          }
+        }
+      }
+
+      #header-info {
+        font-size: 32px;
+        text-align: center;
+        max-width: 359px;
+        padding-bottom: 280px;
+        justify-content: center;
+        margin: 0 auto;
+
+        #header-info-container {
+          h1 {
+            font-size: 30px;
+          }
+
+          #header-info-text {
+            font-size: 16px;
+          }
+        }
+
+        #header-info-image {
+          bottom: 43px;
+          position: absolute;
+          height: 202px;
+          width: 250px;
+          right: 64px;
+
+          img {
+            height: 207px;
+            width: 250px;
+
+          }
+        }
+      }
+    }
+  }
+
+  #bake {
+    #bake-container {
+      padding-top: 100px;
+      max-width: 343px;
+
+      #bake-info {
+        max-width: 360px;
+
+        #bake-info-head {
+          max-width: 333px;
+          margin: 0 auto;
+          font-size: 30px;
+        }
+
+        #bake-info-text {
+          font-size: 16px;
+        }
+      }
+    }
+    #bake-properties {
+      padding-top: 30px;
+      max-width: 350px;
+
+      .properties {
+        max-width: 158px;
+        .properties-title {
+          font-size: 18px;
+        }
+
+        .properties-text {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  #choose {
+    #choose-container {
+      #choose-title {
+        font-size: 30px;
+      }
+
+    }
+  }
+
+  #order-mac {
+    #order-mac-container {
+      max-width: 375px;
+
+      #order-mac-img {
+        img {
+          display: none;
+        }
+      }
+
+      #order-mac-form {
+        #Big2 {
+          width: 75px;
+          height: 89px;
+          position: absolute;
+          bottom: 402px;
+          right: 15px;
+          display: block;
+        }
+
+        #Small {
+          display: none;
+        }
+
+        #order-mac-title {
+          font-size: 30px;
+        }
+
+        #order-choose-form {
+          input {
+            width: 344px;
+          }
+
+          button.order {
+            width: 344px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 585px) {
+
+#choose{
+  #choose-container{
+    #choose-product {
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 375px;
+    }
+  }
+}
+
+#footer{
+  #footer-container {
+    padding: 60px 0;
+    flex-direction: column;
+    text-align: center;
+    #footer-info {
+      position: relative;
+      #protect {
+        position: absolute;
+        bottom: -195px;
+        left: -25px;
+        width: 158px;
+      }
+    }
+    #insta {
+      order: 3;
+      margin-top: 30px;
+    }
+    .phone {
+      order: 2;
+      margin-top: 40px;
+    }
+  }
+
+  }
+
+}
+
+@media screen and (max-width: 365px) {
+
+#header{
+  #header-container{
+    #header-info{
+      #header-info-container {
+        h1 {
+          font-size: 24px;
+        }
+      }
+      #header-info-image {
+        right: 22px;
+      }
+    }
+  }
+}
+
+
+  #bake{
+    #bake-container{
+      #bake-info{
+        #bake-info-head {
+          font-size: 24px;
+        }
+      }
+    }
+    #bake-properties{
+      .properties {
+        max-width: 128px;
+      }
+    }
+  }
+
+
+#choose{
+  #choose-container{
+    #choose-title {
+      font-size: 26px;
+    }
+  }
+}
+#order-mac{
+  #order-mac-container {
+    justify-content: center;
+    padding: 98px 0 120px 0;
+    #order-mac-form {
+      max-width: 298px;
+      #order-choose-form {
+        input {
+          width: 295px;
+        }
+        button.order {
+          width: 295px;
+        }
+      }
+    }
+  }
+}
+}
